@@ -45,5 +45,7 @@ Det uppstår ofta konflikt mellon Skånetrafiken och politiker på kommunnivå i
 
 
 [1] https://www.sydsvenskan.se/2020-12-09/skanetrafiken-brot-mot-lagen-i-kopet-av-nya-dubbeldackartag
+
 [2] https://www.sydsvenskan.se/2021-11-02/skanetrafiken-oppnar-upp-for-dubbeldackartag-igen
+
 [3] https://helsingordagblad.dk/artikel/har-du-opdaget-kystbanens-nye-dobbeltd%C3%A6kkertog-der-er-meget-bedre-plads

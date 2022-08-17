@@ -17,8 +17,10 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
+      <div class="header-line">
+        <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+        {% if page.url == "/" %}<img src="/img/train.png" width="100%" id="header-image">{% endif %}
+      </div>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
@@ -32,7 +34,11 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer>
+      {% if page.url == "/" %}
+        <p>Photo: <a href="https://www.flickr.com/photos/harry_nl/30072619191">Harry_nl</a>, License Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)</p>
+      {% endif %}
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

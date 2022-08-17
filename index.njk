@@ -4,8 +4,13 @@ eleventyNavigation:
   key: Hem
   order: 1
 ---
+
+<p>Inför valet 2022 diskuteras det mycket omkring saker som har prioritet på nationalt eller kommunalt plan. Det diskuteras tvärtom inte mycket om saker som är viktiga för regionen Skåne - inklusive tillståndet av tågen och övrig kollektivtransport. Vem har ansvaret för situationen nu och vem kommer göra något med den?</p>
+
+<p>Tåguppropet Skåne vil ha svar från politikerne. Varför är tågene så dyra och kapaciteten så liten?</p>
+
+
 {% set maxPosts = collections.posts.length | min(3) %}
-<h1>Senaste {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Poster{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
