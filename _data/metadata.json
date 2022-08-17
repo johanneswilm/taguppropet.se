@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Tåguppropet Skåne",
+  "url": "https://taguppropet.se/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Tågupproret Skåne blev lanserat innanför valene i Skåne i 2022 för att uppmärksamgöra hur det står till med tågforbindelsene för Skånebor.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "För att förbättre tågsituationen i Skåne",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://taguppropet.se/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://taguppropet.se//feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Johannes Wilm",
+    "email": "mail@johanneswilm.org",
+    "url": "https://www.johanneswilm.org/"
   }
 }
