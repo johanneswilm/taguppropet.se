@@ -9,4 +9,4 @@ eleventyNavigation:
 
 Tågupproret Skåne lanserades under valet i Skåne 2022 för att uppmärksamma tågförbindelsernas tillstånd för skåneborna.
 
-Kontakt: Johannes Wilm, tel: 076-6922220, e-post: mail @ johanneswilm.org
+Kontakt: Johannes Wilm, tel: 076-6922220, e-post: info @ taguppropet.se
