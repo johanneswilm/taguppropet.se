@@ -113,7 +113,7 @@ header .header-image {
   z-index: 5;
 }
 header .header-image img {
-  max-width: 98vw;
+  max-width: calc(min(37.5em, 98vw));
 }
 table {
   margin: 1em 0;
