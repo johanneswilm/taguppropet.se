@@ -24,7 +24,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-gray-20: #e0e0e0;
-    --color-red-dark: #C0C0C0;
+    --color-red-dark: #8B2332;
     --color-gray-90: #dad8d8;
 
     /* --text-color is assigned to --color-gray-_ above */
@@ -74,7 +74,7 @@ a[href]:visited {
   color: var(--text-color-link-visited);
 }
 
-main, ul.nav, div.header-line, footer {
+main, header, footer {
   padding: 1rem;
   margin: 0 auto;
   background-color: var(--background-color);
@@ -104,9 +104,11 @@ header .header-line {
   display: block;
   border-top: 2px solid var(--color-red-dark);
 }
-#header-image {
-  position: absolute;
-  right: 0;
+header .header-image {
+  position: relative;
+  right: -18px;
+  float: right;
+  z-index: 5;
 }
 table {
   margin: 1em 0;
@@ -164,8 +166,9 @@ code {
 
 /* Nav */
 .nav {
-  padding: 0;
   list-style: none;
+  z-index: 4;
+  clear: right;
 }
 .nav-item {
   display: inline-block;
