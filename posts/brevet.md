@@ -1,5 +1,5 @@
 ---
-title: Brev till Skånes politikera
+title: Brev till Skånes politiker
 description: Ett brev som blev skickat till Skånes partier
 date: 2022-08-17
 tags:
