@@ -112,6 +112,9 @@ header .header-image {
   float: right;
   z-index: 5;
 }
+header .header-image img {
+  max-width: 98vw;
+}
 table {
   margin: 1em 0;
 }
