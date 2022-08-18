@@ -1,7 +1,7 @@
 ---
 title: Brev till Skånes politiker
 description: Ett brev som blev skickat till Skånes partier
-date: 2022-08-17
+date: 2022-08-19
 tags:
   - tåg
   - Region Skåne
@@ -10,36 +10,36 @@ tags:
   - SJ
 layout: layouts/post.njk
 ---
-Kära parti som deltar i regional och kommunalvalet i Skåne. För tiden diskuteras det mycket kring saker som har prioritet på nationalt eller kommunalt plan. Det diskuteras tvärtom inte mycket om saker som är viktiga för regionen Skåne - inklusive tillståndet av tågen och övrig kollektivtransport. Vem har ansvaret för situationen nu och vem kommer göra något med det?
+Kära parti som deltar i regional och kommunalvalet i Skåne. Just nu diskuteras det mycket om saker som har prioritet på ett nationellt eller kommunalt plan. Däremot diskuteras det inte mycket om saker som är viktiga för regionen Skåne - inklusive tillståndet på tågen och övrig kollektivtrafik. Vem har ansvaret för situationen nu och vem kommer göra något åt den?
 
 Kan ni som parti svara på nedanstående frågor? Så publicerar vi era svår på vår hemsida taguppropet.se.
 
-## Frågar
+## Frågor
 
 ### Pågatågen
 
-Skånetrafiken har i dagsläget med ca 100 fordon av typen X61. Tågen är köpt in under de senaste 10 åren, men de var uppenbart inte tänkt till dagens trafikvolym och resesätt. Det är bland annat brist på plats till barnvagn, rullstol och cykler i stora delar av tågnätet.
+Skånetrafiken har i dagsläget ca 100 fordon av typen X61. Tågen är inköpta under de senaste 10 åren, men de är uppenbarligen inte gjorda för dagens trafikvolym och resesätt. Det är bland annat brist på plats för barnvagnar, rullstolar och cyklar i stora delar av tågnätet.
 
-* Vem har ansvaret för att fordon av typen X61 blev köpt  och att man inte planerade för cykler, rullstol och barnvagn?
-* Vad kommer ni till att göra under kommande mandatperioden för att förbättra situationen?
+* Vem har ansvaret för att fordon av typen X61 blev köpta och att man inte planerade för cyklar, rullstolar och barnvagnar?
+* Vad kommer ni att göra under den kommande mandatperioden för att förbättra situationen?
 
 ### Öresundståget
 
-Öresundstågens fordon av typen X31 var fina och nya i år 2000. Men det gick inte länge innan det var brist på kapaciteten och nu efter snart ett kvart århundrade är många av tågen i extremt dålig skick. Det har varit konflikt omkring tågdriften sedan 2009, och SJ som hade vunnit kontrakten för åren 2020-2028 drog sig nyligen ur avtalet pga tågens skick.
+Öresundstågens fordon av typen X31 var fina och nya år 2000, men det tog inte lång tid innan kapaciteten blev bristande. Efter snart ett kvarts århundrade är många av tågen i extremt dåligt skick. Det har pågått en konflikt om tågdriften sedan 2009, och SJ som vann kontrakten för åren 2020-2028 drog sig nyligen ur avtalet på grund av tågens skick.
 
-En av lösningarna på bristproblemet som föreslås är att köpa dubbeldäckare. Skånetrafikens försök på att köpa dubbeldäckare blev underkänt[1]. En process som blev startat i 2021 ser ut till att gå oändligt långsamt [2] och har fortfarande ovist utfall. I den angränsande regionen Sjælland har dubbeldäckare kört i många år - och i år bland annat också på Kystbanen som tidigare var del av Öresundstågens körsträcka [3].
+En av lösningarna på bristproblemet som föreslås är att köpa dubbeldäckare. Skånetrafikens försök till att köpa dubbeldäckare blev underkänt[1]. En process som påbörjades under 2021 ser ut att gå oändligt långsamt [2] och utfallet är fortfarande ovisst. I den angränsande regionen Sjælland har dubbeldäckare kört i många år - och i år bland annat också på Kystbanen som tidigare var del av Öresundstågens körsträcka [3].
 
-* Varför går det så extremt långsamt med att förnya tågen i Skåne när de kan göra det mycket snabbare på Sjælland?
+* Varför går det så extremt långsamt att förnya tågen i Skåne när de har kunnat göra det mycket snabbare på Sjælland?
 * Vem har ansvaret för att situationen inte har blivit bättre under de senaste åren?
-* Vad kommer ni till att göra under den kommande mandatperioden för att få flera tåg med högre kapacitet på spåren så snabbt som möjligt?
+* Vad kommer ni att göra under den kommande mandatperioden för att få fler tåg med högre kapacitet på spåren så snabbt som möjligt?
 
 
 ### Underhåll, ansvarsfriskrivning, etc.
 
-Det uppstår ofta konflikt mellan Skånetrafiken och politiker på kommunnivå i Skåne. För väljaren framstår det som oklart vilka partier som faktisk står för att investera mer i kollektivtrafik och vilka som inte gör det.
+Det uppstår ofta konflikter mellan Skånetrafiken och politiker på kommunal nivå i Skåne. För väljaren framstår det som oklart vilka partier som faktisk står för att investera mer i kollektivtrafiken och vilka som inte gör det.
 
-* Varför tror ni att det uppstår oklarheter kring vem som har ansvaret av underhåll av tåg och buss och vilka partier man skall rösta på om man vill ha bättre bussförbindelser till byarne?
-* Vad kommer ni att göra under den kommande kandidatperioden för att öka transparensen?
+* Varför tror ni att det uppstår oklarheter kring vem som har ansvaret för underhåll av tåg och bussar och vilka partier man skall rösta på om man vill ha bättre bussförbindelser ut till landsbygden?
+* Vad kommer ni att göra under den kommande mandatperioden för att öka transparensen?
 
 
 

@@ -7,6 +7,6 @@ eleventyNavigation:
   order: 3
 ---
 
-Tågupproret Skåne lanserades under valet i Skåne 2022 för att uppmärksamma tågförbindelsernas tillstånd för skåningsborna.
+Tågupproret Skåne lanserades under valet i Skåne 2022 för att uppmärksamma tågförbindelsernas tillstånd för skåneborna.
 
-Kontakt: Johannes Wilm, tel: 0766922220, mail <a> johanneswilm.org
+Kontakt: Johannes Wilm, tel: 076-6922220, e-post: mail @ johanneswilm.org
