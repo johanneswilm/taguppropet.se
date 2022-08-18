@@ -19,7 +19,7 @@
     <header>
       <div class="header-line">
         <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-        {% if page.url == "/" %}<img src="/img/train.png" width="100%" id="header-image">{% endif %}
+        {% if page.url == "/" %}<div class="header-image"><img src="/img/train.png"></div>{% endif %}
       </div>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
