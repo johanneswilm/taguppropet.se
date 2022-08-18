@@ -90,6 +90,9 @@ main
 header {
   border-bottom: 1px dashed var(--color-gray-20);
 }
+header {
+  border-top: 2px solid var(--color-red-dark);
+}
 footer {
   border-bottom: 2px solid var(--color-red-dark);
   font-size: 0.7em;
@@ -102,7 +105,6 @@ header:after {
 
 header .header-line {
   display: block;
-  border-top: 2px solid var(--color-red-dark);
 }
 header .header-image {
   position: relative;

@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
-
-    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-    {#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+    <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
 
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
@@ -19,7 +18,7 @@
     <header>
       <div class="header-line">
         <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-        {% if page.url == "/" %}<div class="header-image"><img src="/img/train.png"></div>{% endif %}
+        {% if page.url == "/" %}<div class="header-image"><img src="{{ '/img/train.png' | url }}"></div>{% endif %}
       </div>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
