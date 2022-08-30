@@ -299,3 +299,22 @@ a[href].direct-link:focus:visited,
 h1 {
   font-size: 1.2em;
 }
+
+blockquote {
+  background: var(--color-gray-20);
+  border-left: 10px solid var(--color-red-dark);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: var(--color-red-dark);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
