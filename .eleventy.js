@@ -3,6 +3,7 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItReplaceLink = require("markdown-it-replace-link");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -66,7 +67,8 @@ module.exports = function(eleventyConfig) {
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
-    linkify: true
+    linkify: true,
+    replaceLink: link => link.replace(/^([^/][^:]*)\.md(#[^#]+)?$/, "../$1/$2"),
   }).use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: "after",
@@ -75,7 +77,8 @@ module.exports = function(eleventyConfig) {
     }),
     level: [1,2,3,4],
     slugify: eleventyConfig.getFilter("slugify")
-  });
+  }).use(markdownItReplaceLink);
+
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
