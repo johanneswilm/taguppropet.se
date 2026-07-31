@@ -73,7 +73,7 @@ Regeringen avser att tillsätta en förhandlingsperson för hur framtida översk
 **Fråga 14** *(riksdag och region)*
 Avslutningsvis: Vilka tre konkreta åtgärder för att förbättra tågtrafiken i Skåne lovar ert parti att genomföra – eller påbörja – under mandatperioden 2026–2030 om ni är med och styr? Vi ber om specifika åtgärder, tidplaner och finansiering – inte allmänna målformuleringar.
 
-## Faktaunderlag med källor (för eget bruk / bilaga)
+## Faktaunderlag med källor
 
 **Resande och punktlighet**
 - 59,2 miljoner resor med Pågatåg och Öresundståg 1 dec 2024 – 30 nov 2025. Punktlighet nov 2025: Öresundståg 81 %, Pågatåg 90 %. Källa: Skånetrafiken, "Läget i tågtrafiken 2025" – [skanetrafiken.se](https://www.skanetrafiken.se/link/e44aa325c0b54d42923cbf3fe20fedd1.aspx)
