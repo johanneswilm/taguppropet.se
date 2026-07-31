@@ -5,15 +5,23 @@ eleventyNavigation:
   order: 1
 ---
 
-<p>Inför valet 2022 diskuteras det mycket om saker som har prioritet på ett nationellt eller kommunalt plan. Däremot diskuteras det inte mycket om saker som är viktiga för regionen Skåne - inklusive tillståndet på tågen och övrig kollektivtrafik. Vem har ansvaret för situationen nu och vem kommer göra något åt den?</p>
+<section class="hero">
+  <img src="{{ '/img/hero.svg' | url }}" alt="" class="hero-illustration" aria-hidden="true">
+  <div class="hero-inner">
+    <span class="hero-badge">Val 2026</span>
+    <h1>Skånes tågtrafik i kris<br>– politikerna måste svara</h1>
+    <p>Tåguppropet Skåne granskar tågförbindelserna i Skåne och kräver svar från partierna inför valet den 13 september 2026.</p>
+    <a href="{{ '/posts/brevet-2026/' | url }}" class="btn btn-primary">Läs våra frågor till partierna &rarr;</a>
+    <p class="hero-credit"><small>AI-genererad illustration</small></p>
+  </div>
+</section>
 
-<p>Tåguppropet Skåne vill ha svar från politikerna. Varför är tågen så dyra och kapaciteten så liten?</p>
+<div class="container">
+  <h2 style="margin-top: 2.5rem;">Senaste inlägg</h2>
 
+  {% set postslist = collections.posts | head(-7) %}
+  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
 
-{% set maxPosts = collections.posts.length | min(10) %}
-
-{% set postslist = collections.posts | head(-10) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>Fler inlägg kan hittas i <a href="{{ '/posts/' | url }}">arkivet</a>.</p>
+  <p class="archive-link"><a href="{{ '/posts/' | url }}">Alla inlägg i arkivet &rarr;</a></p>
+</div>

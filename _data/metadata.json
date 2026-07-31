@@ -1,8 +1,8 @@
 {
   "title": "Tåguppropet Skåne",
   "url": "https://taguppropet.se/",
-  "language": "en",
-  "description": "Tågupproret Skåne blev lanserat innanför valene i Skåne i 2022 för att uppmärksamgöra hur det står till med tågforbindelsene för Skånebor.",
+  "language": "sv",
+  "description": "Tåguppropet Skåne granskar tågtrafiken i Skåne och kräver svar från partierna.",
   "feed": {
     "subtitle": "För att förbättre tågsituationen i Skåne",
     "filename": "feed.xml",
