@@ -1,12 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tåguppropet Skåne</title>
-    <meta name="description" content="Tågupproret Skåne blev lanserat innanför valene i Skåne i 2022 för att uppmärksamgöra hur det står till med tågforbindelsene för Skånebor.">
+    <meta name="description" content="Tåguppropet Skåne granskar tågtrafiken i Skåne och kräver svar från partierna.">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <meta name="generator" content="Eleventy v1.0.2">
+    <meta name="generator" content="Eleventy v3.1.6">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
@@ -15,28 +19,56 @@
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="Tåguppropet Skåne">
   </head>
   <body>
-    <header>
-      <div class="header-line">
-        <h1 class="home"><a href="/">Tåguppropet Skåne</a></h1>
-        
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="site-brand">
+          <span class="site-brand-icon" aria-hidden="true">🚆</span>
+          Tåguppropet Skåne
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="/">Hem</a>
+          </li>
+          <li class="nav-item nav-item-active">
+            <a href="/posts/">Arkiv</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about/">Om oss</a>
+          </li>
+        </ul>
       </div>
-      <ul class="nav">
-        <li class="nav-item"><a href="/">Hem</a></li>
-        <li class="nav-item nav-item-active"><a href="/posts/">Arkiv</a></li>
-        <li class="nav-item"><a href="/about/">Om oss</a></li>
-      </ul>
     </header>
 
-    <main class="tmpl-home">
+    <main>
+      <div class="container">
+  <h1>Arkiv</h1>
 
-      
-<h1>Arkiv</h1>
-
-
-<ul reversed class="postlist" style="counter-reset: start-from 7">
+  
+  <ul class="postlist">
 
   <li class="postlist-item">
-    <a href="/posts/val2022/" class="postlist-link">Konklusion - svaren vi fick inför valet</a>
+    <a href="/posts/brevet-2026/" class="postlist-link">Tåguppropet Skåne 2026 – frågor till partierna inför valet</a>
+    <time class="postlist-date" datetime="2026-07-31">2026-07-31</time>
+    
+      
+      <a href="/tags/tag/" class="post-tag">tåg</a>
+    
+      
+      <a href="/tags/region-skane/" class="post-tag">Region Skåne</a>
+    
+      
+      <a href="/tags/skanetrafiken/" class="post-tag">Skånetrafiken</a>
+    
+      
+      <a href="/tags/oeresundstaget/" class="post-tag">Öresundståget</a>
+    
+      
+      <a href="/tags/val-2026/" class="post-tag">Val 2026</a>
+    
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/2022/val2022/" class="postlist-link">Konklusion - svaren vi fick inför valet</a>
     <time class="postlist-date" datetime="2022-09-10">2022-09-10</time>
     
       
@@ -60,7 +92,7 @@
   </li>
 
   <li class="postlist-item">
-    <a href="/posts/moderaterna/" class="postlist-link">Moderaternas svar</a>
+    <a href="/posts/2022/moderaterna/" class="postlist-link">Moderaternas svar</a>
     <time class="postlist-date" datetime="2022-09-10">2022-09-10</time>
     
       
@@ -84,7 +116,7 @@
   </li>
 
   <li class="postlist-item">
-    <a href="/posts/miljopartiet/" class="postlist-link">Miljöpartiets svar</a>
+    <a href="/posts/2022/miljopartiet/" class="postlist-link">Miljöpartiets svar</a>
     <time class="postlist-date" datetime="2022-08-31">2022-08-31</time>
     
       
@@ -108,7 +140,7 @@
   </li>
 
   <li class="postlist-item">
-    <a href="/posts/vansterpartiet/" class="postlist-link">Vänsterpartiets svar</a>
+    <a href="/posts/2022/vansterpartiet/" class="postlist-link">Vänsterpartiets svar</a>
     <time class="postlist-date" datetime="2022-08-30">2022-08-30</time>
     
       
@@ -132,7 +164,7 @@
   </li>
 
   <li class="postlist-item">
-    <a href="/posts/centerpartiet/" class="postlist-link">Centerpartiets svar</a>
+    <a href="/posts/2022/centerpartiet/" class="postlist-link">Centerpartiets svar</a>
     <time class="postlist-date" datetime="2022-08-30">2022-08-30</time>
     
       
@@ -156,7 +188,7 @@
   </li>
 
   <li class="postlist-item">
-    <a href="/posts/brevet/" class="postlist-link">Brev till Skånes politiker</a>
+    <a href="/posts/2022/brevet/" class="postlist-link">Brev till Skånes politiker</a>
     <time class="postlist-date" datetime="2022-08-19">2022-08-19</time>
     
       
@@ -177,13 +209,14 @@
   </li>
 
 </ul>
-
-
-
+</div>
     </main>
 
-    <footer>
-      
+    <footer class="site-footer">
+      <div class="container">
+        <p>Tåguppropet Skåne &middot; 2022–2026</p>
+        <p>Heroillustration: AI-genererad. <a href="https://github.com/johanneswilm/taguppropet.se">Källkod på GitHub</a>.</p>
+      </div>
     </footer>
 
     <!-- Current page: /posts/ -->

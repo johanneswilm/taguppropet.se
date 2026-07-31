@@ -2,112 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://taguppropet.se/posts/brevet/</loc>
+    <loc>https://taguppropet.se/posts/2022/brevet/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
   
   <url>
-    <loc>https://taguppropet.se/posts/centerpartiet/</loc>
+    <loc>https://taguppropet.se/posts/2022/centerpartiet/</loc>
     <lastmod>2022-08-30</lastmod>
   </url>
   
   <url>
-    <loc>https://taguppropet.se/posts/vansterpartiet/</loc>
+    <loc>https://taguppropet.se/posts/2022/vansterpartiet/</loc>
     <lastmod>2022-08-30</lastmod>
   </url>
   
   <url>
-    <loc>https://taguppropet.se/posts/miljopartiet/</loc>
+    <loc>https://taguppropet.se/posts/2022/miljopartiet/</loc>
     <lastmod>2022-08-31</lastmod>
   </url>
   
   <url>
-    <loc>https://taguppropet.se/posts/moderaterna/</loc>
+    <loc>https://taguppropet.se/posts/2022/moderaterna/</loc>
     <lastmod>2022-09-10</lastmod>
   </url>
   
   <url>
-    <loc>https://taguppropet.se/posts/val2022/</loc>
+    <loc>https://taguppropet.se/posts/2022/val2022/</loc>
     <lastmod>2022-09-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://taguppropet.se/posts/brevet-2026/</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/about/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/posts/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/eleventy-base-blog/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/page-list/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/tag/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/region-skane/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/skanetrafiken/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/oeresundstaget/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://taguppropet.se/tags/val-2026/</loc>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/sj/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/centerpartiet/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/miljoepartiet/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/moderaterna/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/val-2022/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
   
   <url>
     <loc>https://taguppropet.se/tags/vaensterpartiet/</loc>
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2026-07-31</lastmod>
   </url>
 </urlset>
