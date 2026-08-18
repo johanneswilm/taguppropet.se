@@ -10,6 +10,7 @@ tags:
   - SJ
   - Centerpartiet
 layout: layouts/post.njk
+ogImage: /img/logos/centerpartiet.png
 ---
 > *När det gäller cyklar gav vi tillsammans med våra allianskollegor i kollektivtrafiknämnden i våras ett uppdrag till Skånetrafiken att utreda hur man kan möjliggöra för fler cyklar ombord på tågen. Utredningen kommer att bli klar under hösten och vi inväntar resultatet, men vi är i grunden positiva.*
 >

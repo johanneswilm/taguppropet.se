@@ -10,6 +10,7 @@ tags:
   - SJ
   - Vänsterpartiet
 layout: layouts/post.njk
+ogImage: /img/logos/vansterpartiet.png
 ---
 > *Region Skåne styrs av alliansen i minoritet. Vi beklagar att det inte har gått snabbare än vad det gör. Under mandatperioden har pandemin satt en del käppar i hjulen men det är också så att de politiska prioriteringarna faktiskt skiljer sig åt. Vänsterpartiet vill se stora satsningar framöver både i regionen och nationellt för att öka kollektivtrafiken.*
 >

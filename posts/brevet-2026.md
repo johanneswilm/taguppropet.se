@@ -9,6 +9,7 @@ tags:
   - Öresundståget
   - Val 2026
 layout: layouts/post.njk
+ogImage: /img/facebook-cover.png
 ---
 
 Inför valet 2022 ställde Tåguppropet Skåne frågor till partierna om läget i den skånska tågtrafiken. Svaren publicerades på taguppropet.se. Nu, fyra år senare, följer vi upp.

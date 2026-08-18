@@ -9,6 +9,7 @@ tags:
   - Öresundståget
   - SJ
 layout: layouts/post.njk
+ogImage: /img/facebook-cover.png
 ---
 Kära parti som deltar i regional och kommunalvalet i Skåne. Just nu diskuteras det mycket om saker som har prioritet på ett nationellt eller kommunalt plan. Däremot diskuteras det inte mycket om saker som är viktiga för regionen Skåne - inklusive tillståndet på tågen och övrig kollektivtrafik. Vem har ansvaret för situationen nu och vem kommer göra något åt den?
 

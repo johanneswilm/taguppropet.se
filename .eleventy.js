@@ -49,6 +49,11 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+  // Remove trailing slash from a URL
+  eleventyConfig.addFilter("stripTrailingSlash", url => {
+    return String(url || "").replace(/\/$/, "");
+  });
+
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   }

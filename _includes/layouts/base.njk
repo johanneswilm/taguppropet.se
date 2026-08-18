@@ -8,6 +8,14 @@
     <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | url }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
+    {% set baseUrl = metadata.url | stripTrailingSlash %}
+    {% set ogImagePath = ogImage or '/img/facebook-cover.png' %}
+    <meta property="og:title" content="{{ title or metadata.title }}">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+    <meta property="og:image" content="{{ baseUrl }}{{ ogImagePath | url }}">
+    <meta property="og:url" content="{{ baseUrl }}{{ page.url | url }}">
+    <meta property="og:type" content="website">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
