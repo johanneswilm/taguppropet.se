@@ -390,6 +390,12 @@ main > .container {
 .post-content {
   max-width: var(--content-max);
 }
+.post-logo {
+  display: block;
+  max-height: 120px;
+  width: auto;
+  margin: 0 0 1.5rem;
+}
 .post-meta {
   display: flex;
   flex-wrap: wrap;
