@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
@@ -62,6 +63,33 @@ module.exports = function(eleventyConfig) {
     });
 
     return filterTagList([...tagSet]);
+  });
+
+  // Posts placed directly in posts/ (the current election)
+  eleventyConfig.addCollection("currentPosts", function(collectionApi) {
+    return collectionApi.getFilteredByTag("posts").filter(post => {
+      const relPath = path.relative("./posts", post.inputPath);
+      return relPath && !relPath.includes(path.sep);
+    });
+  });
+
+  // Posts grouped by immediate subfolder under posts/ (e.g. posts/2022/)
+  eleventyConfig.addCollection("postsByYear", function(collectionApi) {
+    const byYear = {};
+    collectionApi.getFilteredByTag("posts").forEach(post => {
+      const relPath = path.relative("./posts", post.inputPath);
+      if (!relPath) return;
+      const parts = relPath.split(path.sep);
+      if (parts.length > 1) {
+        const year = parts[0];
+        if (!byYear[year]) byYear[year] = [];
+        byYear[year].push(post);
+      }
+    });
+
+    return Object.keys(byYear)
+      .sort((a, b) => b.localeCompare(a))
+      .map(year => ({ year, posts: byYear[year] }));
   });
 
   // Customize Markdown library and settings:

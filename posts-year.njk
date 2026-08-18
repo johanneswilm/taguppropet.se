@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections.postsByYear
+  size: 1
+  alias: yearGroup
+permalink: "/posts/{{ yearGroup.year }}/"
+layout: layouts/home.njk
+---
+
+<div class="container">
+  <h1>Inlägg från valet {{ yearGroup.year }}</h1>
+  <p>Här hittar du svaren från partierna inför valet {{ yearGroup.year }}.</p>
+
+  {% set postslist = yearGroup.posts %}
+  {% set postslistCounter = yearGroup.posts | length %}
+  {% include "postslist.njk" %}
+
+  <p class="archive-link"><a href="{{ '/' | url }}">&larr; Tillbaka till aktuella inlägg</a></p>
+</div>
