@@ -8,7 +8,7 @@ tags:
   - Skånetrafiken
   - Öresundståget
   - Val 2026
-  - Västerpartiet
+  - Vänsterpartiet
 layout: layouts/post.njk
 ogImage: /img/logos/vansterpartiet-og.png
 logo: /img/logos/vansterpartiet.png
