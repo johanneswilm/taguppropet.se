@@ -357,6 +357,25 @@ blockquote p {
   box-shadow: 0 4px 12px rgba(139,35,50,0.4);
   transform: translateY(-1px);
 }
+.btn-secondary {
+  background: var(--bg-alt);
+  color: var(--text-link);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover {
+  background: var(--white);
+  color: var(--text-link-hover);
+  border-color: var(--red-light);
+}
+
+.year-archive {
+  margin-top: 3rem;
+}
+.year-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
 
 /* Main content area */
 main {
