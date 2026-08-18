@@ -11,6 +11,7 @@ tags:
   - Miljöpartiet
 layout: layouts/post.njk
 ogImage: /img/logos/miljopartiet-og.png
+logo: /img/logos/miljopartiet.svg
 ---
 > *Upphandlingen av en ny kapacitetsstark tågtyp, som Alliansen ansvarat för under denna mandatperiod, har varit så dålig att den blev upphävd av domstol. Vi har kritiserat att vi och flera andra partier inte fått insyn eller möjlighet att påverka och ta ansvar för så viktiga upphandlingar som denna. Vi har tror att de krav som ställts har inneburit tåg som är mycket komplexa. Det tror vi har försvårat konkurrens om leveranstid, kapacitet och livscykelkostnader.*
 

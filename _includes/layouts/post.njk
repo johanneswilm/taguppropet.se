@@ -4,6 +4,10 @@ layout: layouts/base.njk
 <div class="container post-content">
   <h1>{{ title }}</h1>
 
+  {% if logo %}
+  <img src="{{ logo | url }}" alt="{{ title }}" class="post-logo">
+  {% endif %}
+
   <div class="post-meta">
     <time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
     {%- for tag in tags | filterTagList %}

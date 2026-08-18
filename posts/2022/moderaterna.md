@@ -10,7 +10,8 @@ tags:
   - SJ
   - Moderaterna
 layout: layouts/post.njk
-ogImage: /img/logos/moderaterna.png
+ogImage: /img/logos/moderaterna-og.png
+logo: /img/logos/moderaterna.png
 ---
 > *Ytterst är det Region Skåne som har ansvaret. X61 köptes in 2006 och vi har svårt att svara för hur diskussionerna gick då. När det gäller cyklandet har vi sett att det ökat de senaste 5-10 åren.*
 

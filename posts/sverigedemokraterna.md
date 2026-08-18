@@ -10,7 +10,8 @@ tags:
   - Val 2026
   - Sverigedemokraterna
 layout: layouts/post.njk
-ogImage: /img/logos/sverigedemokraterna.png
+ogImage: /img/logos/sverigedemokraterna-og.png
+logo: /img/logos/sverigedemokraterna.png
 ---
 ### A. Läget och ansvaret
 #### Fråga 1 (riksdag och region) Resandet är på rekordnivåer, men Öresundstågens punktlighet ligger på drygt 80 procent och tusentals tåg ställs in varje år. Anser ert parti att läget i den skånska tågtrafiken är acceptabelt? Om inte – vilka är de tre viktigaste åtgärder ni vill driva under mandatperioden 2026–2030?
